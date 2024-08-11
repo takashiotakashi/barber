@@ -9,6 +9,8 @@ import BarbershopItem from "./_components/barbershop-item"
 import { quickSearchOptions } from "./_constantes/search"
 import BookingItem from "./_components/booking-item"
 
+// PRIMEIRA LETRA : X
+
 const Home = async () => {
   //chamar meu banco de dados
   const barbershops = await db.barbershop.findMany({})
